@@ -39,3 +39,21 @@ Run the following commands:
 `npm install`
 
 `npm run dev`
+
+## TODO
+
+Improvemens
+
+```
+ type TodoListItem = {
+   done: undefined || Date;
+   value: string;
+   condition: WeatherType[];
+   created: Date;
+   index: number;
+ };
+```
+
+Use comments for complex logic
+
+Handle response times with SWR
