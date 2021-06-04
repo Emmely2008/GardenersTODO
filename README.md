@@ -58,4 +58,4 @@ Use comments for complex logic
 
 Handle response times with SWR
 
-[screenshot](./screenshot.png)
+![screenshot](./screenshot.png)
