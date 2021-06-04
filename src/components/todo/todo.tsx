@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import { Weather } from "../weather-overview/weather-overview";
 import TodoForm from "./todo-form/todo-form";
 import TodoList from "./todo-list/todo-list";
 import TodoListItem, {

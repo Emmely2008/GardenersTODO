@@ -37,7 +37,7 @@ const TodoListItem = (props: TodoListItemProps) => {
   var todoClass = item.done ? "done" : "undone";
   return (
     <div
-      className="border m-2 rounded-xl overflow-hidden bg-gradient-to-r from-green-60 to-green-70
+      className="border m-2 rounded-xl overflow-hidden bg-gray-100
       p-4"
       key={itemIndex}
     >

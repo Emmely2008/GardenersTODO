@@ -54,13 +54,20 @@ export default function Home(props: HomeProps) {
       </Head>
 
       <main className="bg-white rounded shadow p-2 m-2 w-full lg:w-3/4 lg:max-w-xlg">
-        <div className="flex flex-wrap">
-          <div className="w-full sm:w-1/1 md:w-1/2 lg:w-1/2 xl:w-1/2 p-2 mb-4">
-            <h1 className="text-sm font-medium text-gray-900 p-2">
-              Welcome to Gardeners Todo App
-            </h1>
+        <div className="flex flex-wrap text-gray-900 ">
+          <div className="w-full sm:w-1/1 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4 mb-4 bg-gradient-to-r from-green-100 to-green-50 rounded">
+            <h1 className="text-2xl my-2 text-green-600">Gardeners Todo App</h1>
+            <p className="text-base my-2  text-green-600">
+              Create, update and delete todo tasks for your garden
+            </p>
+            <p className="text-base my-2 text-green-600">
+              Add a description and prefered weather condition for the task.
+            </p>
+            <p className="text-base my-2 text-green-600">
+              The tasks are organized according to the current weather conditon.
+            </p>
           </div>
-          <div className="w-full sm:w-1/1 md:w-1/2 p-2 mb-4">
+          <div className="w-full sm:w-1/1 md:w-1/2 p-2 mb-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded">
             <WeatherOverview {...props}></WeatherOverview>
           </div>
         </div>

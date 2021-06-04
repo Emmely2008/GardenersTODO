@@ -1,4 +1,3 @@
-import { getEmojii } from "../../utils/get-weather";
 import { capitalizeFirstLetter } from "../../utils/strings";
 import Image from "next/image";
 
@@ -16,11 +15,11 @@ const WeatherOverview = (props: WeatherOverviewProps) => {
 
   return (
     <div>
-      <p className="h3 p-2">{`Current weather condition in ${city} is: `}</p>
+      <p className="text-base my-2 text-blue-600">{`Current weather condition in ${city} is: `}</p>
       <ul className="px-2 py-4">
         {weather.map((weatherItem, idx) => {
           return (
-            <li key={idx} className="text-blue-600">
+            <li key={idx} className="text-base my-2 text-blue-600">
               {`${capitalizeFirstLetter(
                 weatherItem.main
               )}: ${capitalizeFirstLetter(weatherItem.description)}`}
