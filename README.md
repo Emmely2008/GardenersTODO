@@ -57,3 +57,5 @@ Improvemens
 Use comments for complex logic
 
 Handle response times with SWR
+
+[screenshot](./screenshot.png)
